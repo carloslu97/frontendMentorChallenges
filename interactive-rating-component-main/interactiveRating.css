@@ -1,0 +1,85 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+section {
+    background-color: hsl(213, 19%, 18%);
+    margin-top: 10em;
+    width: 17em;
+    height: 20em;
+    border-radius: 10%;
+}
+
+#rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    margin-left: 1em;
+    padding: 0.5em;
+    width: 1em;
+    margin-right: 14em;
+}
+
+#text {
+    padding-left: 1em;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+#numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0em 0.75em;
+    font-size: 15px;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    margin-top: 2em;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 60%;
+}
+
+
+.attribution {
+    color: white;
+}
+
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 2em;
+    }
+}
